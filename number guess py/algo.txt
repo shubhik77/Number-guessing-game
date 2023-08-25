@@ -1,0 +1,29 @@
+We start by importing the random module to generate random numbers.
+
+The number_guessing_game function is defined to encapsulate the game logic.
+
+We generate a random target number using random.randint(1, 100), which generates a random integer between 1 and 100.
+
+We initialize the attempts variable to keep track of how many attempts the player has made.
+
+The while True: loop runs indefinitely until the player guesses the correct number.
+
+Inside the loop, we take the user's guess as input using input(). The input is then converted to an integer using int().
+
+We increment the attempts counter for each guess.
+
+We use conditional statements to check whether the guess is too low, too high, or correct.
+
+If the guess is too low, we inform the player and prompt them to try again.
+
+If the guess is too high, we inform the player and prompt them to try again.
+
+If the guess is correct, we congratulate the player, reveal the target number, and display the number of attempts.
+
+The if __name__ == "__main__": statement ensures that the number_guessing_game function is only called when the script is run directly (not when imported as a module).
+
+To play the game, simply run the script. The player enters guesses until they guess the correct number, and the game provides feedback on whether the guess is too high or too low.
+
+
+
+
